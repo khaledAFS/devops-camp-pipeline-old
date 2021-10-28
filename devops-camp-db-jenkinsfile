@@ -62,6 +62,7 @@ pipeline {
                 stage('Security scanning') {
 	            steps {
 		        // modify to scan database image
+			echo "Security scanning..."
 	            }
                 }
                 stage('Deploy') {
